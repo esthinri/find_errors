@@ -11,7 +11,7 @@ end
 
 Quando(/^acessa um resultado que contenha palavra santander$/) do
   	#Clicka no primeiro link que contem santander
-  	#first(:link, 'Santander').click
+  	first(:link, 'Santander: Pessoa Física').click
 end
 
 Então(/^visualiza  as informações de contato da central de atendimento$/) do
