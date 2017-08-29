@@ -6,6 +6,7 @@ Funcionalidade: Acessar informacoes de contato Santander
 	Quero acessar o site do Santander através do google
 	Para visualizar as informações de contato da central de atendimento
 
+	@test
 	Cenário : Acessar informacoes através do google
 	 Dado 	que o usuario esta no google
 	 Quando busca por Santander
