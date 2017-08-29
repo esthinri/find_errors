@@ -10,5 +10,5 @@ Funcionalidade: Verificar valor do dólar no UOL
 	@cotacao
 	Cenário: Verificar se cotação do dólar está abaixo de 3.20
 	 Dado 	que estou no site do Uol
-	 Quanda acesso a página de economia
+	 Quando acesso a página de economia
 	 Então 	verifico se o valor do dólar está abaixo de 3.20
