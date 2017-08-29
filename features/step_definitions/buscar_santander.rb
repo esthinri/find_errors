@@ -1,6 +1,6 @@
 Dado(/^que o usuario esta no google$/) do
 	#Acessa o google
-	visit 'www.google.com.br/?gws_rd=ssl'
+	visit 'http://www.google.com.br'
 end
 
 Quando(/^busca por Santander$/) do
