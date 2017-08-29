@@ -5,7 +5,7 @@ end
 
 Quando(/^acesso a página de economia$/) do
  #Acessa o link de economia
- click_link("Economia")
+ click_on "Economia"
 end
 
 Então(/^verifico se o valor do dólar está abaixo de (\d+.\d+)$/) do |dolar|
