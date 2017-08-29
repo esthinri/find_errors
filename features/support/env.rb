@@ -1,11 +1,13 @@
+require 'capybara'
+require 'capybara/cucumber'
+require 'selenium-webdriver'
 
-
-capybara.register_driver :selenium do |app|
-	capybara::Selenium::Driver.new(app, :browser => :chrome)
+Capybara.register_driver :selenium do |app|
+	Capybara::Selenium::Driver.new(app, :browser => :chrome)
 end
 
-capybara.default_driver = :selenium
+Capybara.default_driver = :selenium
 
-capybara.default_max_wait_time = 15
+Capybara.default_max_wait_time = 15
 
-capybara.page.driver.browser.manage.window.maximize
+Capybara.page.driver.browser.manage.window.maximize

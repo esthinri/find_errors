@@ -5,6 +5,7 @@ gem 'capybara'
 gem 'rspec'
 gem 'rake'
 gem 'selenium-webdriver'
-gem "chromedriver-helper"
+gem 'chromedriver-helper'
 gem 'pry'
+gem 'cucumber-rails', :require => false
 
